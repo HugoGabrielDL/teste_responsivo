@@ -1,100 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="estilo.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/javascript" href="cursos.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/logo preta.ico"/>
     <title>Ianes Tech</title>
+
 </head>
 <body>
-    <nav>
-        <img src="img/logo preta com nome.png" width="160" height="90"/>
-        <ul>
-            <li><a href="#home">HOME |</a></li>
-            <li><a href="#sobre">SOBRE |</a></li>
-            <li><a href="#cursos">CURSOS |</a></li>
-            <li><a href="#contato">CONTATO</a></li>
-        </ul>
-    </nav>
+    
+    <header>
+        <a name="home"></a>
+        <img id="imgLogoCabecalho" src="img/logo preta com nome.png" width="130" height="70"/>
+       <img id="imgMinhaConta" src="img/Área do cliente.png" width="200" height="100">
 
-    <header id="topo">
-        <img src="img/logo branca.png" width="300" height="300">
-        <h1>O FUTURO <br/>
-        COMEÇA AQUI!</h1>
-        <br/>
-        <a href="#cursos" class="botao">VER MAIS</a>
+        <ul>
+            <li> <a href="#home">HOME  |</a></li>
+            <li> <a href="#sobre">SOBRE  |</a></li>
+            <li> <a href="#cursos">CURSOS  |</a></li>
+            <li> <a href="#contato">CONTATO </a></li>
+        </ul>
+        
+
     </header>
 
-    <section id="sobre">
-        <h2>Bem-Vindo á Ianes Tech</h2>
-        <p id="p1">QUEM SOMOS?</p>
-        <p>Somos a empresa IANES TECH, estamos no mercado á aproximadamente 10 anos<br/>
-            Ofertando diversos cursos na área da tecnologia, ajudando assim,<br/>
-            todos aqueles que tem um sonho em comum - viver do que ama!.<br/>
-            Nós, criadores da IANES TECH também compartilhamos um sonho em<br/>
-            comum - ajudar as pessoas a viver do que amam - com experiências dinâmicas<br/>
-            aulas criativas e professores de altíssima qualidade!<br/>
-            Não perca tempo e venha conosco contruir sua carreira de sucesso!</p>
-    </section>
-
-    <section id="cursos">
-        <h2>NOSSOS CURSOS</h2>
-
-        <div>
-            <img src="img/curso design.png" width="300" height="300">
-            <p>O designer gráfico é responsável por criar a parte <br/>
-                visual de materiais como sites, panfletos, outdoors, <br/>
-                banners, embalagens, anúncios, campanhas e logotipos.</p>
+    
+    
+    <main>
+        <!--<div class="areaCliente">
+            <ul>
+                <li>
+                    LOGIN
+                </li>
+                <br/>
+                <hr>
+                <br/>
+                <li>
+                    CADASTRO
+                </li>
+            </ul>
+        </div>-->
+        <img id="fundo" src="img/laptop.jpg"/>
+        
+        <div class="box">
+            <p>O FUTURO <br/> COMEÇA <br/> AQUI!</p>
+            <img src="img/logo branca.png" width="350" height="350"/>
+            <div id="linha-vertical"></div>
+        </div>
+        <div class="box1">
+            <br/>
+            <br/>
+            <button id="inicio" name="inicio" value="inicio">APERTE AQUI PARA INICIAR SUA JORNADA!</button>
         </div>
 
-        <div>
-            <img src="img/curso design.png" width="300" height="300">
-            <p>O designer gráfico é responsável por criar a parte <br/>
-                visual de materiais como sites, panfletos, outdoors, <br/>
-                banners, embalagens, anúncios, campanhas e logotipos.</p>
-        </div>
+        <section>
+            <article id="AreaSobre">
+                <a name="sobre"></a>
+                <p id="bem-vindo">Bem-Vindo á IANES TECH...</p>
+                <p id="quemsomos">QUEM SOMOS?</p>
+                <p id="textoquemsomos"> Somos a empresa <strong>IANES TECH</strong>, estamos no mercado á aproximadamente 10 anos <br/>
+                                        Ofertando diversos cursos na área da tecnologia, ajudando assim, <br/>
+                                        todos aqueles que tem um sonho em comum - viver do que ama!. <br/>
+                                        Nós, criadores da <strong>IANES TECH</strong> também compartilhamos um sonho em <br/>
+                                        comum - ajudar as pessoas a viver do que amam - com experiências dinâmicas <br/>
+                                        aulas criativas e professores de altíssima qualidade! <br/>
+                                        Não perca tempo e venha conosco contruir sua carreira de sucesso!</p>
+                <img id="imgFeedback" src="img/feedback.png">
+            </article>
 
-        <div>
-            <img src="img/curso design.png" width="300" height="300">
-            <p>O designer gráfico é responsável por criar a parte <br/>
-                visual de materiais como sites, panfletos, outdoors, <br/>
-                banners, embalagens, anúncios, campanhas e logotipos.</p>  
-        </div>
+            <article id="AreaCursos">
+                <a name="cursos"></a>
+                <br/>
+                <p id="Cursos" align="center"> NOSSOS CURSOS </p>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <img id="curso1" src="img/curso design.png" width="400" height="400">
+                <img id="curso2" src="img/curso design.png" width="400" height="400">
+                <img id="curso3" src="img/curso design.png" width="400" height="400">
+            </article>
+        </section>
 
-    </section>
+        <section id="AreaContato">
+            <a name="contato"></a>
+            <article>
+                
+                <p id="contatenos">CONTATE-NOS</p>
+                <p id="subtituloContatenos">Caso tenha alguma dúvida ou feedback, preencha os campos abaixo:</p>
 
-    <section id="contato">
-        <h2>CONTATE-NOS</h2>
-        <p>Caso tenha alguma dúvida ou feedback, 
-            preencha os campos abaixo:</p>
+            </article>
 
-        <form>
-                <label>Nome completo:</label>
-                <br/>
-                <br/>
-                <input type="text" name="nome" id="nome" placeholder="Informe seu nome completo"/>
-                <br/>
-                <br/>
-                <label>Email:</label>
-                <br/>
-                <br/>
-                <input type="email" name="email" id="email" placeholder="Informe seu email"/>
-                <br/>
-                <br/>
-                <label>Comentário:</label>
-                <br/>
-                <br/>
-                <textarea id="coment" name="coment" id="coment" placeholder="Digite aqui"></textarea>
-                <button id="enviar" name="enviar" value="ENVIAR"> ENVIAR </button>
-        </form>
-
-    </section>
+            <article>
+                <form id="formContact">
+                    <label id="labelContato">Nome completo:</label>
+                    <br/>
+                    <br/>
+                    <input type="text" name="nome" id="nome" placeholder="Informe seu nome completo"/>
+                    <br/>
+                    <br/>
+                    <label id="labelContato">Email:</label>
+                    <br/>
+                    <br/>
+                    <input type="email" name="email" id="email" placeholder="Informe seu email"/>
+                    <br/>
+                    <br/>
+                    <label id="labelContato">Comentário:</label>
+                    <br/>
+                    <br/>
+                    <textarea id="coment" name="coment" id="coment" placeholder="Digite aqui"></textarea>
+                    <br/>
+                    <button id="enviar" name="enviar" value="ENVIAR"> ENVIAR </button>
+                </form>
+                
+                <p id="protecao">Compromisso de Proteção de Dados IANES TECH</p>
+                
+                <p id="termosprotecao">Nós valorizamos a proteção à sua privacidade; portanto, as suas informações <br/>
+                    serão tratadas pela ianes Tech Ltda. (“IANES TECH”) de acordo com as disposições <br/>
+                     de sua Política de Privacidade a IANES TECH e nossas empresas associadas <br/>
+                     e representantes poderã contatá-lo(a) por correio, telefone, fax, SMS,<br/>
+                     WhatsApp, redes sociais, e-mail, ou qualquer outro meio, sobre pesquisas, ofertas,<br/>
+                     convites ou informações sobre os produtos, serviços ou eventos.</p>
+                  
+                <p id="localizacao">Localização</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.964091979071!2d-43.93700018494463!3d-19.92591794332843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699e5e225d9e9%3A0xd68c28f6c6f3d481!2sAv.%20Afonso%20Pena%2C%201500%20-%20Centro%2C%20Belo%20Horizonte%20-%20MG%2C%2030130-005!5e0!3m2!1spt-BR!2sbr!4v1660914661965!5m2!1spt-BR!2sbr" width="650" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+    </main>
 
     <footer>
         <p style="font-family: poppins;
@@ -106,8 +144,8 @@
         margin-top: 30px;
         text-decoration: underline;">NOSSAS REDES SOCIAIS</p>
 
-        <img id="wathsapp" src="img/wathsapp logo.png" width="50" height="50">
-        <img id="insta" src="img/insta logo.png" width="50" height="50">
+        <img id="wathsapp" src="img/wathsapp logo.png" width="70" height="70">
+        <img id="insta" src="img/insta logo.png" width="70" height="70">
 
         <p style="font-family: poppins;
         color: rgb(48, 48, 48);
@@ -118,9 +156,10 @@
         margin-top: 30px;
         text-decoration: underline;">FORMAS DE PAGAMENTO</p>
 
-        <img id="formaspagamento" src="img/formas de pagamento.webp" width="350" height="140">
+        <img id="formaspagamento" src="img/formas de pagamento.webp" width="390" height="140">
+
+        <img id="logofooter" src="img/logo preta com nome.png" width="200" height="120">
 
     </footer>
-
 </body>
 </html>
