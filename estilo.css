@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    color: white;
+}
+
+/*MENU*/
+h1, h2, h3 {
+    font-family: poppins, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+nav > a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Poppins, sans-serif;
+}
+
+
+nav li:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    font-weight: bolder;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #2b2b2b;;
+}
+
+/*CABEÇALHO*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/laptop.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 50px;
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+.botao {
+    width: 200px;
+    height: 30px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: 0px;
+    background-color: white;
+    font-family: poppins, sans-serif;
+    font-weight: bolder;
+    color: rgb(68, 68, 68);
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 10px 10px 20px 20px;
+    background-image: url(img/sobre.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1600px;
+}
+
+#sobre h2 {
+    color: white;
+    font-size: 70px;
+}
+
+#sobre #p1 {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+    font-size: 30px;
+}
+
+#sobre p {
+    font-size: 30px;
+}
+/*NOSSOS CURSOS*/
+
+#cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#cursos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*CONTATO*/
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 10px 10px 20px 20px;
+    background-image: url(img/contate-nos.png);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1080px;
+}
+
+#contato h2{
+    color: #252525;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#contato p {
+    color: #252525;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+#contato label {
+    font-weight: bold;
+    font-size: 20px;
+    color:#252525;
+    margin-left: 30px;
+}
+
+
+#contato input {
+    background: #F5F6FB;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575455;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 1em black;
+    width: 300px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+#contato textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+    border: 0px;
+    box-shadow: 0 0 1em black;
+    border-radius: 12px;
+    resize: none;
+    width: 300px;
+    height: 90px;
+    margin-left: 30px;
+}
+
+#contato button {
+    width: 120px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: white;
+    font-family: poppins;
+    font-size: 18px;
+    box-shadow: 0 0 1em black;
+    margin-left: 30px;
+}
+
+/*RODAPÉ*/
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color:  rgb(68, 68, 68);
+    background-color: white;
+    color:  rgb(68, 68, 68);
+    height: 300px;
+}
+
+footer a {
+    text-decoration: underline;
+    color:  rgb(68, 68, 68);
+}
+
+footer p {
+    margin-bottom: 2.5em;
+}
+
+#wathsapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    margin-right: -200px;
+    margin-top: 80px;
+}
+
+#insta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    margin-right: -110px;
+    margin-top: 80px;
+}
+
+#formaspagamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    margin-top: 60px;
+    margin-left: -242px;
+}
+
+#logofooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    margin-right: 600px;
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    /*nav*/
+
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+
+    }
+
+    /*cabeçalho*/
+
+    header {
+        height: 600px;
+        height: 100vh;
+        justify-content: center;
+    }
+
+    /*sobre*/
+
+    #sobre {
+        height: 800px;
+        height: 110vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    /*cursos*/
+
+    #cursos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #cursos h2 {
+        text-align: center;
+        width: 100%;
+        font-size: 50px;
+    }
+
+    #cursos div {
+        margin-top: 90px;
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 40px;
+    }
+
+    /*contato*/
+
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        max-width: 1900px;
+        height: 110vh;
+        margin: 0 auto;
+    }
+
+    #contato h2, #contato p {
+        width: 100%;
+    }
+
+    #contato p {
+        margin-top: -250px;
+    }
+}
